@@ -4,7 +4,7 @@
 
 ### Aluno: Gabriel Pádua
 ### Professor: Abrantes Araujo
-## MOnitoria: Suellen Miranda
+### Monitoria: Suellen Miranda
 
 #GIT
 O GIT é um Sistema de Controle de versões de suma importância para o gerenciamento de projetos.
@@ -25,6 +25,6 @@ PostgreSQL e MYSQL. Contudo, a liguagem é diferente entre esses 2 programas, lo
 dentro desses 2 aplicativos. Feito isso, deve-se fazer comentários no script para poder ajudar a organizar melhor a forma de pensamento e como chegou naquele 
 ponto, para causar um melhor entendimento.
 
-#Postando 
+# Postando 
 Após fazer a implementação do projeto lógico nos 2 programas, é necessário postar no GitHub e enviar para o professor, e nele, aprendemos como usar o MarkDown
 e o próprio github, com isso, é possível ver um pouco da evolução que tivemos desde antes de começar a fazer o trabalho.
