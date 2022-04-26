@@ -1,5 +1,14 @@
-create database uvv;
-use uvv; ( 
+mysql -u root -pcomputacao@raiz
+CREATE USER 'gabriel'@'localhost' IDENTIFIED BY '123456';
+GRANT ALL PRIVILEGES ON * . * TO 'gabriel'@'localhost';
+FLUSH PRIVILEGES;
+quit;
+mysql -u gabriel -p123456
+
+/*Criando o banco de dados uvv */
+CREATE DATABASE uvv;
+/* Selecionando o banco de dados uvv */
+USE uvv; ( 
 
 /*Criando a tabela Funcionário*/
 CREATE TABLE funcionario (
