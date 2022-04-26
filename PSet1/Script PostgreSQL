@@ -1,3 +1,6 @@
+create user gabriel superuser createdb createrole inherit login password '123456';
+
+/* Criação da database uvv */
 create database uvv
 with
 owner = "gabriel"
@@ -7,6 +10,8 @@ LC_COLLATE = 'pt_BR.UTF-8'
 LC_CTYPE = 'pt_BR.UTF-8'
 connection limit = -1;
 
+CREATE SCHEMA elmasri AUTHORIZATION gabriel
+/* Botando o esquema elmasri como padrão */
 set SEARCH_PATH to elmasri, "$user", public;
 show search_path;
 alter USER gabriel 
