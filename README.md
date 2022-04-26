@@ -6,7 +6,25 @@
 ### Professor: Abrantes Araujo
 ### Monitoria: Suellen Miranda
 
-Este trabalho tem o intuito de aumentar o conhecimento através da prática de design e desenvolvimento de banco de dados. Com isso, o professor passou um trabalho
-que consiste em fazer um projeto lógico e depois implementá-los em 2 bancos de dados diferentes, com isso, alguns detalhes devem ser mudados, uma vez que a linguagem não é a 
-mesma. Este é um grande desafio, principalmente para quem está começando, pois várias coisas tiveram que ser pesquisadas para melhor entendimento. Com isso, concluo
-que após este trabalho, meu conhecimento aumentou significativamente sobre banco dedados e este é apenas o começo.
+#GIT
+O GIT é um Sistema de Controle de versões de suma importância para o gerenciamento de projetos.
+Ele permite que várias pessoas trabalhem de maneira colaborativa, guardando o conteúdo em seu repositório
+
+#GitHub
+O GitHub é um serviço de controle de versão que é utilizado para armazenar os projetos criados pelo GIT.
+ * Repositório: Local onde os arquivos são armazenados
+ * Branch: Ramificações de um projeto
+ 
+# Elmasri
+Uma das partes do PSet, é a implementação e desenvolvimento do projeto lógico que está no capítulo 5 e 6 do livro de Elmasri.
+Com ele, criamos 6 tabelas, de funcionários, departamento, trabalha em, dependente, projeto e localizações departamento.
+
+#PostgreSQL e MYSQL
+Depois de conseguir fazer a parte lógica do trabalho, é necessário pegar o script através do power architect e inserí-los no
+PostgreSQL e MYSQL. Contudo, a liguagem é diferente entre esses 2 programas, logo, algumas mudanças serão feitas para conseguir organizar todo o projeto
+dentro desses 2 aplicativos. Feito isso, deve-se fazer comentários no script para poder ajudar a organizar melhor a forma de pensamento e como chegou naquele 
+ponto, para causar um melhor entendimento.
+
+# Postando 
+Após fazer a implementação do projeto lógico nos 2 programas, é necessário postar no GitHub e enviar para o professor, e nele, aprendemos como usar o MarkDown
+e o próprio github, com isso, é possível ver um pouco da evolução que tivemos desde antes de começar a fazer o trabalho.
