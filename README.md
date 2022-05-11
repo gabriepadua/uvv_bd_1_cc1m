@@ -1,4 +1,4 @@
-# Pset 1
+# Pset 
 
 ## PSet, atividade passada pelo professor Abrantes Araujo Silva, com finalidade de ensinar sobre Sistema de Controle de Versões, além de implementação de projetos lógicos.
 
