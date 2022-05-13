@@ -1,0 +1,133 @@
+TABELAS RESULTANTES
+
+
+# 1
+media_salario | nome_departamento
+----------------------------------
+31            | Administarãço
+55            | Matriz
+33.25         | Pesquisa
+
+# 2
+media_salario | sexo
+----------------------
+31            | F
+37.6          | M
+
+# 3
+nome_departamento | nome_completo        | data_nascimento | idade | salario
+Adminstarãço     | Jennifer S Souza     | 1941-06-20      | 80    | 43
+Adminstarãço    | André V Pereira      | 1969-03-29      | 53    | 25
+Adminstarãço     | Alice J Zelaya       | 1968-01-19      | 54    | 25
+Matriz            | Jorge E Brito        | 1937-11-10      | 84    | 55
+Pesquisa          | João B Silva         | 1968-12-08      | 53    | 30
+Pesquisa          | Fernando T Wong      | 1955-08-12      | 66    | 40
+Pesquisa          | Joice A Leite        | 1972-07-31      | 49    | 25
+Pesquisa          | Ronaldo K Lima       | 1962-09-15      | 59    | 38
+
+# 4
+nome_completo      |  idade   | salario | salario_reajuste
+-----------------------------------------------------------
+João B Silva       |53        |30       |36
+Fernando T Wong    |66        |40       |48
+Joice A Leite      |49        |25       |30
+Ronaldo K Lima     |59        |38       |45.6
+Jorge E Brito      |84        |55       |66
+Jennifer S Souza   |80        |43       |51.6
+Andrée V Pereira   |53        |25       |30
+Alice J Zelaya     |54        |25       |30
+
+# 5
+nome_departamento  | gerente  |  primeiro_nome | salario
+Administarãço      | Jennifer |Jennifer        |43
+Administarãço      | Jennifer |André           |25
+Administarãço      | Jennifer |Alice           |25
+Matriz             | Jorge    |Jorge           |55
+Pesquisa           | Fernando |Fernando        |40
+Pesquisa           | Fernando |Ronaldo         |38
+Pesquisa           | Fernando |João            |30
+Pesquisa           | Fernando |Joice           |25
+
+# 6
+nome_completo    |  nome_departamento | nome_dependente | idade_dependente | sexo_dependente
+João B Silva     | Pesquisa           | Alícia          |33                | Feminino
+João B Silva     | Pesquisa           | Elizabeth       |55                | Feminino
+Jõao B Silva     | Pesquisa           | Michael         |34                | Masculino
+Fernando T Wong  | Pesquisa           | Alícia          |36                | Feminino
+Fernando T Wong  | Pesquisa           | Janaina         |64                | Feminino
+Fernando T Wong  | Pesquisa           | Tiago           |38                | Masculino
+Jennifer S Souza | Adminstarãço      | Antonio         |80                 | Masculino
+
+# 7
+nome_completo    |  nome_departamento | salario
+Jorge E Brito    |Matriz              |55
+André V Pereira  |Adminstarãço        |25
+Alice J Zelaya   |Adminstarãço        |25
+Joice A Leite    |Pesquisa            |25
+Ronaldo K Lima   |Pesquisa            |38
+
+# 8
+nome_departamento |  nome_projeto | nome_completo  | horas
+Pesquisa          |ProtudoX       |João B Silva    |32.5
+Pesquisa          |ProtudoX       |Joice A Leite   |20
+Pesquisa          |ProtudoY       |João B Silva    |7.5
+Pesquisa          |ProtudoY       |Fernando T Wong |10
+Pesquisa          |ProtudoY       |Joice A Leite   |20
+Pesquisa          |ProtudoZ       |Ronaldo K Lima  |40
+Pesquisa          |ProtudoZ       |Fernando T Wong |10
+Pesquisa          |Informatizãço  |Fernando T Wong |10
+Adminstarãço      |Informatizãço  |Alice J Zelaya  |10
+Adminstarãço      |Informatizãço  |André V Pereira |35
+Pesquisa          |Reorganiazção  |Fernando T Wong |10
+Matriz            |Reorganiazção  |Jorge E Brito   |0
+Adminstarãço      |Reorganiazção  |Jennifer S Souza|15
+Adminstarãço      |Novosbeneficios|André V Pereira |5
+Adminstarãço      |Novosbeneficios|Jennifer S Souza|20
+Adminstarãço      |Novosbeneficios|Alice J Zelaya  |30
+
+# 9
+nome_departamento | nome_projeto  | total_horas
+Adminstarãço      |Informatiazãço |55
+Adminstarãço      |Novosbeneficios|55
+Pesquisa          |ProdutoX       |52.5
+Pesquisa          |ProdutoY       |37.5
+Pesquisa          |ProdutoZ       |50
+Matriz            |Reorganiazção  |25
+
+# 10
+media_salario | nome_departamento
+----------------------------------
+31            | Administarãço
+55            | Matriz
+33.25         | Pesquisa
+
+# 11
+nome_completo     |nome_projeto   | salario_atualiado
+Alice J Zelaya    |Informatiazãço | 500
+André V Pereira   |Informatiazãço | 1,750
+Fernando T Wong   |ProdutoY       | 500
+Jennifer S Souza  |Reorganiazção  | 750
+João B Silva      |ProdutoX       | 1625
+Joice A Leite     |ProdutoX       | 1000
+Jorge E Brito     |Reorganiazção  | 0
+Ronaldo K Lima    |ProdutoZ       | 2,000
+
+
+# 12
+nome_departamento | nome_projeto | nome_completo| horas
+Adminstarãço      | Reorganiazção| Jorge E Brito| 0
+
+
+
+# 14
+departamento | numero_funcionario
+Adminstarãço | 3
+Matriz       | 1
+Pesquisa     | 4
+
+
+
+Houve um pequeno problema, que só percebi agora, na hora de botar os acentos til, no primeiro PSet, eu escrevi errado, provavelmente por lentidão no computador ou por falta de atenção 
+minha, os erros estão em "Adinstarãço","Informatizãço" e Reorganiazção". Além disso, eu não coloquei as tabelas respostas das questões 13 e 15 por falta de tempo.
+
+
