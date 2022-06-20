@@ -1,7 +1,51 @@
+/* =========================================================================== */
+/* PSET-3: script para a criação da tabela e carregamento dos dados que serão  */
+/*         unilizados na solução do PSET-3.                                    */
+/* =========================================================================== */
+/* Prof. Abrantes Araújo Silva Filho                                           */
+/*       abrantesasf@uvv.br                                                    */
+/* =========================================================================== */
 
+
+
+/* --------------------------------------------------------------------------- */
+/* COMO EXECUTAR:                                                              */
+/* --------------------------------------------------------------------------- */
+/* Este script parte do pressuposto que você criou e já tem configurado no seu */
+/* SGBD PostgreSQL (da máquina virtual ou outro qualquer) os seguintes objetos */
+/* conforme detalhados no PSET-1:                                              */
+/*    - Seu usuário (com uma senha específica)                                 */
+/*    - O banco de dados "uvv"                                                 */
+/*    - O esquema "elmasri"                                                    */
+/*                                                                             */
+/* Se você não tem o banco de dados do PSET-1 pronto, por favor, utilize o     */
+/* script padrão de resposta do PSET-1 que o professor colocou no Portal do    */
+/* Aluno para preparar tudo.                                                   */
+/*                                                                             */
+/* Depois que tudo está preparado, ALTERE A LINHA 43 deste script para dizer   */
+/* qual é o seu usuário/senha de conexão ao banco de dados. Depois basta       */
+/* executar o seguinte comando em um terminal Linux ou console Windows:        */
+/*     psql -U postgres -d postgres < pset3.sql                                */
+/* --------------------------------------------------------------------------- */
+
+
+
+/* --------------------------------------------------------------------------- */
+/* CONEXÃO AO BANCO UVV:                                                       */
+/* --------------------------------------------------------------------------- */
+/* Faz a conexão ao banco de dados com o usuário/senha que você configurar no  */
+/* PSET-1:                                                                     */
+/* --------------------------------------------------------------------------- */
+
+-- Faz a conexão com o banco de dados (ALTERE O USUÁRIO/SENHA!):
+\echo
+\echo Conectando ao banco de dados:
+\c "dbname=uvv user=gabriel password=123456"
 
 -- Ajusta o SEARCH_PATH da conexão atual, por via das dúvidas:
 SET SEARCH_PATH TO elmasri, "$user", public;
+
+
 
 
 CREATE TABLE classificacao (
